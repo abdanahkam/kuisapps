@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.b.kuisapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Soal_UML_8"></activity>
+        <activity android:name=".Activity_Soal_UML_7" />
+        <activity android:name=".Activity_Soal_UML_6" />
+        <activity android:name=".Activity_Soal_UML_5" />
+        <activity android:name=".Activity_Soal_UML_4" />
+        <activity android:name=".Activity_Soal_UML_3" />
+        <activity android:name=".Activity_Soal_UML_2" />
+        <activity android:name=".Activity_Soal_UML_1" />
+        <activity android:name=".Activity_Soal_MYSQL_8" />
+        <activity android:name=".Activity_Soal_MYSQL_7" />
+        <activity android:name=".Activity_Soal_MYSQL_6" />
+        <activity android:name=".Activity_Soal_MYSQL_5" />
+        <activity android:name=".Activity_Soal_MYSQL_4" />
+        <activity android:name=".Activity_Soal_MYSQL_3" />
+        <activity android:name=".Activity_Soal_MYSQL_2" />
+        <activity android:name=".Activity_Soal_MYSQL_1" />
+        <activity android:name=".Activity_Soal_Java_8" />
+        <activity android:name=".Activity_Soal_Java_7" />
+        <activity android:name=".Activity_Soal_Java_6" />
+        <activity android:name=".Activity_Soal_Java_5" />
+        <activity android:name=".Activity_Soal_Java_4" />
+        <activity android:name=".Activity_Soal_Java_3" />
+        <activity android:name=".Activity_Soal_Java_2" />
+        <activity android:name=".Activity_Soal_Java_1" />
+        <activity android:name=".Activity_Halaman_Pilih_Materi" />
+        <activity android:name=".Activity_Halaman_Start" />
+        <activity android:name=".Activity_Halaman_Logo" />
+        <activity android:name=".Activity_Halaman_High_Score" />
+        <activity android:name=".Activity_Halaman_About" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

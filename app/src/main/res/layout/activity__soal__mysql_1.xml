@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Soal_MYSQL_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="#461AFF"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/titlekuisapps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuis Apps"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/titlekuisapps_mysql"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MYSQL"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Siapakah pencipta MYSQL ?"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/lato_bold"
+                android:layout_marginBottom="32dp"
+                android:id="@+id/quetion"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="A. Carles Cabbage"
+                android:textSize="20dp"
+                android:fontFamily="@font/lato_bold"
+                android:background="@drawable/button_box_biru"
+                android:padding="8dp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/choice1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="B. Howard Akein"
+                android:textSize="20dp"
+                android:fontFamily="@font/lato_bold"
+                android:background="@drawable/button_box_biru"
+                android:padding="8dp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/choice2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="C. Linus Torvald"
+                android:textSize="20dp"
+                android:fontFamily="@font/lato_bold"
+                android:background="@drawable/button_box_biru"
+                android:padding="8dp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/choice3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="D. Michael 'Monty' Widenius"
+                android:textSize="20dp"
+                android:fontFamily="@font/lato_bold"
+                android:background="@drawable/button_box_biru"
+                android:padding="8dp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/choice4"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/box_merah_score"
+                android:layout_marginTop="28dp">
+
+                <TextView
+                    android:id="@+id/score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="Score"/>
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/score_text"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="0/0"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
